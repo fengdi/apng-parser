@@ -1,0 +1,24 @@
+{
+  "name": "apng-parser",
+  "version": "1.0.0",
+  "source": "src/parser.js",
+  "description": "apng decoder in nodejs(ES6)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "microbundle -f cjs --sourcemap false",
+    "dev": "microbundle watch",
+    "test": "node ./test/test.js"
+  },
+  "browserslist": [
+    "IE 11",
+    "maintained node versions"
+  ],
+  "keywords": [
+    "apng"
+  ],
+  "author": "tangoboy <137757831@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.12.0"
+  }
+}
